@@ -2,90 +2,141 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Terms & Conditions - Shark Gym</title>
-    <!-- Bootstrap CSS for Professional Styling -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
-    <!-- Clean Sans-Serif Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght=300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
     
     <style>
         body {
-            font-family: 'Inter', sans-serif;
-            background-color: #f8f9fa;
-            color: #333;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background: #f4f6f9;
+            color: #2d3748;
+            padding: 10px;
         }
-        .card {
+        .policy-card {
             border: none;
-            border-radius: 15px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            border-radius: 16px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            background: #ffffff;
+            padding: 20px; /* مقاس حواف داخلي مثالي للموبايل */
+            margin-top: 10px;
         }
-        h1 { color: #6C63FF; font-weight: 700; }
-        h5 { color: #222; font-weight: 700; margin-top: 25px; border-left: 4px solid #6C63FF; padding-left: 10px; }
-        p, li { line-height: 1.7; color: #555; font-size: 14.5px; }
-        .highlight-box { background-color: #fff9db; border-radius: 8px; padding: 15px; margin: 15px 0; border-left: 4px solid #fcc419; }
+        .main-title {
+            color: #4f46e5;
+            font-weight: 800;
+            font-size: 1.6rem;
+        }
+        .section-title {
+            color: #1a202c;
+            font-weight: 700;
+            margin-top: 25px;
+            margin-bottom: 12px;
+            font-size: 1.15rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .section-title i {
+            color: #4f46e5;
+            background: #eeebff;
+            padding: 8px;
+            border-radius: 10px;
+            font-size: 0.95rem;
+        }
+        p, li {
+            line-height: 1.6;
+            color: #4a5568;
+            font-size: 13.5px; /* خط متناسق للقراءة من الشاشات الطولية */
+        }
+        .highlight-box { 
+            background-color: #fff9db; 
+            border: 1px solid #ffe3e3;
+            border-radius: 12px; 
+            padding: 15px; 
+            margin: 15px 0; 
+            border-left: 4px solid #fcc419; 
+        }
+        
+        /* 📱 تحسينات واستجابة كاملة لشاشات التليفون الضيقة */
+        @media (max-width: 576px) {
+            body { padding: 5px; }
+            .policy-card { padding: 16px; border-radius: 12px; }
+            .main-title { font-size: 1.4rem; }
+        }
     </style>
 </head>
 <body>
 
-    <div class="container my-5">
+    <div class="container-fluid">
         <div class="row justify-content-center">
-            <div class="col-md-10 col-lg-8">
-                <div class="card p-4 p-sm-5 bg-white">
+            <div class="col-12 col-md-10 col-lg-8">
+                <div class="policy-card">
                     
-                    <!-- Header -->
                     <div class="text-center mb-4">
-                        <h1 class="mb-2">Terms & Conditions</h1>
-                        <p class="text-muted">Effective Date: June 10, 2026</p>
-                        <hr style="border-color: #6C63FF; width: 60px; margin: 20px auto; thickness: 3px;">
+                        <span class="badge bg-warning-subtle text-warning-emphasis px-3 py-1.5 rounded-pill mb-2" style="font-size: 11px;">Legal Agreement</span>
+                        <h1 class="main-title mb-1">Terms & Conditions</h1>
+                        <p class="text-muted small">Effective Date: June 10, 2026</p>
+                        <div class="mx-auto" style="width: 40px; height: 3px; background: #4f46e5; border-radius: 2px;"></div>
                     </div>
 
-                    <!-- Content -->
                     <div class="content">
-                        <p class="lead text-muted mb-4">By downloading, installing, or using the <strong>Nova UP / Shark Gym</strong> mobile application (collectively, the "Application"), you agree to be bound by these Terms and Conditions. Please read them carefully.</p>
+                        <p class="lead text-muted text-center small mb-4">By downloading, installing, or using the <strong>Nova UP / Shark Gym</strong> mobile application, you agree to be bound by these Terms and Conditions.</p>
                         
-                        <h5>1. License to Use</h5>
+                        <h3 class="section-title">
+                            <i class="fa-solid fa-file-signature"></i> 1. License to Use
+                        </h3>
                         <p>The Service Provider (<strong>saeid yosri</strong>) grants you a limited, non-exclusive, non-transferable, and revocable license to use the Application strictly for your personal or internal business operations related to gym management and attendance logging.</p>
                         <p>You are strictly prohibited from reverse engineering, extracting the source code, translating, or modifying any part of the Application.</p>
 
-                        <h5>2. Account Security & Fair Usage</h5>
+                        <h3 class="section-title">
+                            <i class="fa-solid fa-user-shield"></i> 2. Account Security & Fair Usage
+                        </h3>
                         <p>Users and Gym Administrators are fully responsible for maintaining the security of their accounts and devices. Jailbreaking or rooting devices is highly discouraged and may result in the Application failing to function correctly.</p>
                         
                         <div class="highlight-box">
-                            <strong>⚠️ Important Commercial Lock:</strong>
-                            <p class="mb-0">Each Gym subscription and its associated QR Code logging system are licensed for <strong>a single physical gym branch location only</strong>. Replicating, copying, or utilizing the same QR Code infrastructure across multiple branches or unauthorized locations without an official multi-branch subscription constitutes a material breach of these terms and will result in immediate suspension of services.</p>
+                            <strong><i class="fa-solid fa-triangle-exclamation text-warning me-1"></i> Important Commercial Lock:</strong>
+                            <p class="mb-0 mt-1" style="font-size: 13px; color: #665c00;">Each Gym subscription and its associated QR Code logging system are licensed for <strong>a single physical gym branch location only</strong>. Replicating, copying, or utilizing the same QR Code infrastructure across multiple branches or unauthorized locations without an official multi-branch subscription constitutes a material breach of these terms and will result in immediate suspension of services.</p>
                         </div>
 
-                        <h5>3. Intellectual Property</h5>
+                        <h3 class="section-title">
+                            <i class="fa-solid fa-copyright"></i> 3. Intellectual Property
+                        </h3>
                         <p>All trademarks, copyrights, database rights, source codes, UI designs, and branding elements related to the Application remain the exclusive intellectual property of the Service Provider. Nothing in these terms grants you the right to use the Service Provider’s name or logos independently.</p>
 
-                        <h5>4. Location & Camera Enforcement</h5>
+                        <h3 class="section-title">
+                            <i class="fa-solid fa-location-crosshairs"></i> 4. Location & Camera Enforcement
+                        </h3>
                         <p>To access the core attendance features of the Application, you acknowledge and agree that the app requires real-time <strong>Precise Location Verification (GPS)</strong> and <strong>Camera Access</strong> at the moment of check-in. This is explicitly enforced to validate physical presence at the licensed facility and eliminate proxy attendance tracking.</p>
 
-                        <h5>5. Third-Party Services</h5>
+                        <h3 class="section-title">
+                            <i class="fa-solid fa-cubes"></i> 5. Third-Party Services
+                        </h3>
                         <p>The Application integrates with third-party services that govern their operations under their own respective terms. By using Nova UP, you also agree to the terms of:</p>
-                        <ul>
-                            <li><a href="https://play.google.com/about/play-terms/" target="_blank">Google Play Services</a></li>
-                            <li><a href="https://firebase.google.com/terms" target="_blank">Google Analytics for Firebase</a></li>
-                            <li><a href="https://firebase.google.com/terms/crashlytics" target="_blank">Firebase Crashlytics</a></li>
+                        <ul class="list-group list-group-flush mb-2">
+                            <li class="list-group-item bg-transparent py-1.5 px-1"><i class="fa-brands fa-google text-primary me-2"></i> <a href="https://play.google.com/about/play-terms/" target="_blank" class="text-decoration-none">Google Play Services</a></li>
+                            <li class="list-group-item bg-transparent py-1.5 px-1"><i class="fa-solid fa-fire text-warning me-2"></i> <a href="https://firebase.google.com/terms" target="_blank" class="text-decoration-none">Firebase Core Infrastructure</a></li>
                         </ul>
 
-                        <h5>6. Limitation of Liability</h5>
-                        <p>To the maximum extent permitted by applicable law, the Service Provider shall not be held liable for any indirect, incidental, or consequential damages, including loss of data or business profits arising out of the use or inability to use the Application due to device incompatibility or lack of network connection.</p>
+                        <h3 class="section-title">
+                            <i class="fa-solid fa-handshake-slash"></i> 6. Limitation of Liability
+                        </h3>
+                        <p>To the maximum extent permitted by applicable law, the Service Provider shall not be held liable for any indirect, incidental, or consequential damages, including loss of data or business profits arising out of the use or inability to use the Application due to device incompatibility.</p>
 
-                        <h5>7. Termination & Updates</h5>
-                        <p>The Service Provider reserves the right to modify or terminate the Application or charge for its services at any time with clear prior communication. Upon termination of service, all licenses granted to you will immediately cease, and you must remove the app from your device.</p>
+                        <h3 class="section-title">
+                            <i class="fa-solid fa-sliders"></i> 7. Termination & Updates
+                        </h3>
+                        <p>The Service Provider reserves the right to modify or terminate the Application or charge for its services at any time with clear prior communication. Upon termination of service, all licenses granted to you will immediately cease.</p>
 
-                        <h5>8. Contact Us</h5>
-                        <p>If you have any questions, appeals regarding moderation, or suggestions about these Terms, please contact us:</p>
-                        <p class="mb-0"><strong>Email:</strong> saeid.yosri@gmail.com</p>
+                        <h3 class="section-title">
+                            <i class="fa-solid fa-envelope"></i> 8. Contact Us
+                        </h3>
+                        <p>If you have any questions, appeals regarding moderation, or suggestions about these Terms, please contact us via email at <a href="mailto:saeid.yosri@gmail.com" class="fw-bold text-decoration-none">saeid.yosri@gmail.com</a>.</p>
                     </div>
 
-                    <!-- Footer -->
-                    <div class="text-center mt-5 pt-4 border-top">
-                        <p class="text-muted mb-0">&copy; 2026 saeid yosri. All Rights Reserved.</p>
+                    <div class="text-center mt-4 pt-3 border-top text-muted">
+                        <p class="small mb-0" style="font-size: 11px;">&copy; 2026 saeid yosri. All Rights Reserved.</p>
                     </div>
 
                 </div>
