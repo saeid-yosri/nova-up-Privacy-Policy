@@ -3,146 +3,186 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Terms & Conditions - Shark Gym</title>
+    <title>Terms & Conditions</title>
+
+    <!-- Bootstrap CSS for Professional Styling -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
-    
+
+    <!-- Clean Sans-Serif Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+
     <style>
         body {
-            font-family: 'Plus Jakarta Sans', sans-serif;
-            background: #f4f6f9;
-            color: #2d3748;
+            font-family: 'Inter', sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
             padding: 10px;
         }
-        .policy-card {
+        .card {
             border: none;
-            border-radius: 16px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-            background: #ffffff;
-            padding: 20px; /* مقاس حواف داخلي مثالي للموبايل */
-            margin-top: 10px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            padding: 20px;
         }
-        .main-title {
-            color: #4f46e5;
-            font-weight: 800;
-            font-size: 1.6rem;
-        }
-        .section-title {
-            color: #1a202c;
+        h1 { color: #6C63FF; font-weight: 700; }
+        h5 {
+            color: #222;
             font-weight: 700;
             margin-top: 25px;
-            margin-bottom: 12px;
-            font-size: 1.15rem;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-        .section-title i {
-            color: #4f46e5;
-            background: #eeebff;
-            padding: 8px;
-            border-radius: 10px;
-            font-size: 0.95rem;
+            border-left: 4px solid #6C63FF;
+            padding-left: 10px;
         }
         p, li {
-            line-height: 1.6;
-            color: #4a5568;
-            font-size: 13.5px; /* خط متناسق للقراءة من الشاشات الطولية */
+            line-height: 1.7;
+            color: #555;
+            font-size: 14.5px;
         }
-        .highlight-box { 
-            background-color: #fff9db; 
-            border: 1px solid #ffe3e3;
-            border-radius: 12px; 
-            padding: 15px; 
-            margin: 15px 0; 
-            border-left: 4px solid #fcc419; 
-        }
-        
-        /* 📱 تحسينات واستجابة كاملة لشاشات التليفون الضيقة */
+
         @media (max-width: 576px) {
             body { padding: 5px; }
-            .policy-card { padding: 16px; border-radius: 12px; }
-            .main-title { font-size: 1.4rem; }
+            .card { padding: 16px; border-radius: 12px; }
+            h1 { font-size: 1.6rem; }
         }
     </style>
 </head>
+
 <body>
 
-    <div class="container-fluid">
-        <div class="row justify-content-center">
-            <div class="col-12 col-md-10 col-lg-8">
-                <div class="policy-card">
-                    
-                    <div class="text-center mb-4">
-                        <span class="badge bg-warning-subtle text-warning-emphasis px-3 py-1.5 rounded-pill mb-2" style="font-size: 11px;">Legal Agreement</span>
-                        <h1 class="main-title mb-1">Terms & Conditions</h1>
-                        <p class="text-muted small">Effective Date: June 10, 2026</p>
-                        <div class="mx-auto" style="width: 40px; height: 3px; background: #4f46e5; border-radius: 2px;"></div>
-                    </div>
+<div class="container-fluid my-3">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-10 col-lg-8">
+            <div class="card bg-white">
 
-                    <div class="content">
-                        <p class="lead text-muted text-center small mb-4">By downloading, installing, or using the <strong>Nova UP / Shark Gym</strong> mobile application, you agree to be bound by these Terms and Conditions.</p>
-                        
-                        <h3 class="section-title">
-                            <i class="fa-solid fa-file-signature"></i> 1. License to Use
-                        </h3>
-                        <p>The Service Provider (<strong>saeid yosri</strong>) grants you a limited, non-exclusive, non-transferable, and revocable license to use the Application strictly for your personal or internal business operations related to gym management and attendance logging.</p>
-                        <p>You are strictly prohibited from reverse engineering, extracting the source code, translating, or modifying any part of the Application.</p>
+                <!-- Header -->
+                <div class="text-center mb-4">
+                    <h1 class="mb-2">Terms & Conditions</h1>
+                    <hr style="border-color: #6C63FF; width: 60px; margin: 20px auto; thickness: 3px; opacity: 1;">
+                </div>
 
-                        <h3 class="section-title">
-                            <i class="fa-solid fa-user-shield"></i> 2. Account Security & Fair Usage
-                        </h3>
-                        <p>Users and Gym Administrators are fully responsible for maintaining the security of their accounts and devices. Jailbreaking or rooting devices is highly discouraged and may result in the Application failing to function correctly.</p>
-                        
-                        <div class="highlight-box">
-                            <strong><i class="fa-solid fa-triangle-exclamation text-warning me-1"></i> Important Commercial Lock:</strong>
-                            <p class="mb-0 mt-1" style="font-size: 13px; color: #665c00;">Each Gym subscription and its associated QR Code logging system are licensed for <strong>a single physical gym branch location only</strong>. Replicating, copying, or utilizing the same QR Code infrastructure across multiple branches or unauthorized locations without an official multi-branch subscription constitutes a material breach of these terms and will result in immediate suspension of services.</p>
-                        </div>
+                <!-- Content -->
+                <div class="content">
 
-                        <h3 class="section-title">
-                            <i class="fa-solid fa-copyright"></i> 3. Intellectual Property
-                        </h3>
-                        <p>All trademarks, copyrights, database rights, source codes, UI designs, and branding elements related to the Application remain the exclusive intellectual property of the Service Provider. Nothing in these terms grants you the right to use the Service Provider’s name or logos independently.</p>
+                    <p>These terms and conditions apply to the Nova UP app for mobile devices, together with any related services operated by saeid yosri (collectively, the "Application"). saeid yosri is hereby referred to as the "Service Provider".</p>
 
-                        <h3 class="section-title">
-                            <i class="fa-solid fa-location-crosshairs"></i> 4. Location & Camera Enforcement
-                        </h3>
-                        <p>To access the core attendance features of the Application, you acknowledge and agree that the app requires real-time <strong>Precise Location Verification (GPS)</strong> and <strong>Camera Access</strong> at the moment of check-in. This is explicitly enforced to validate physical presence at the licensed facility and eliminate proxy attendance tracking.</p>
+                    <p>By downloading or using the Application, you agree to these Terms and Conditions. You should read them carefully before using the Application.</p>
 
-                        <h3 class="section-title">
-                            <i class="fa-solid fa-cubes"></i> 5. Third-Party Services
-                        </h3>
-                        <p>The Application integrates with third-party services that govern their operations under their own respective terms. By using Nova UP, you also agree to the terms of:</p>
-                        <ul class="list-group list-group-flush mb-2">
-                            <li class="list-group-item bg-transparent py-1.5 px-1"><i class="fa-brands fa-google text-primary me-2"></i> <a href="https://play.google.com/about/play-terms/" target="_blank" class="text-decoration-none">Google Play Services</a></li>
-                            <li class="list-group-item bg-transparent py-1.5 px-1"><i class="fa-solid fa-fire text-warning me-2"></i> <a href="https://firebase.google.com/terms" target="_blank" class="text-decoration-none">Firebase Core Infrastructure</a></li>
-                        </ul>
+                    <h5>License to use the Application</h5>
+                    <p>Subject to your compliance with these Terms, the Service Provider grants you a limited, non-exclusive, non-transferable, revocable license to install and use the Application on a mobile device for personal or internal business purposes. You may not reproduce, distribute, modify, create derivative works from, reverse engineer, decompile, or disassemble the Application, except as and only to the extent that such activity is expressly permitted by applicable law.</p>
 
-                        <h3 class="section-title">
-                            <i class="fa-solid fa-handshake-slash"></i> 6. Limitation of Liability
-                        </h3>
-                        <p>To the maximum extent permitted by applicable law, the Service Provider shall not be held liable for any indirect, incidental, or consequential damages, including loss of data or business profits arising out of the use or inability to use the Application due to device incompatibility.</p>
+                    <h5>Intellectual Property</h5>
+                    <p>The Service Provider retains all intellectual property rights in the Application, including its code, design, trademarks, service marks, trade names, logos, and branding (the "IP"). Nothing in these Terms grants you any license or right to use the Service Provider's trademarks, logos, or branding for any purpose. You agree not to remove, alter, or obscure any copyright, trademark, or other proprietary notices displayed in or on the Application.</p>
 
-                        <h3 class="section-title">
-                            <i class="fa-solid fa-sliders"></i> 7. Termination & Updates
-                        </h3>
-                        <p>The Service Provider reserves the right to modify or terminate the Application or charge for its services at any time with clear prior communication. Upon termination of service, all licenses granted to you will immediately cease.</p>
+                    <h5>Termination</h5>
+                    <p>The Service Provider may suspend your access to the Application or services if you materially breach these Terms. The Service Provider will provide you with written notice of the breach and, where the breach is capable of cure, you will have 14 days from receipt of notice to remedy the breach. If you fail to cure the breach within that period, the Service Provider may terminate your access.</p>
 
-                        <h3 class="section-title">
-                            <i class="fa-solid fa-envelope"></i> 8. Contact Us
-                        </h3>
-                        <p>If you have any questions, appeals regarding moderation, or suggestions about these Terms, please contact us via email at <a href="mailto:saeid.yosri@gmail.com" class="fw-bold text-decoration-none">saeid.yosri@gmail.com</a>.</p>
-                    </div>
+                    <p>The Service Provider may suspend or terminate your access immediately without notice if you violate applicable law, infringe intellectual property rights, or engage in activity that could cause harm to other users or the Service Provider.</p>
 
-                    <div class="text-center mt-4 pt-3 border-top text-muted">
-                        <p class="small mb-0" style="font-size: 11px;">&copy; 2026 saeid yosri. All Rights Reserved.</p>
-                    </div>
+                    <p>Upon termination, your right to use the Application will end and you must delete all copies from your devices.</p>
+
+                    <p>By accessing and using this Application, you represent that you are legally permitted to use it in your jurisdiction. You must be at least 13 years of age (the age of digital consent in your jurisdiction) to use the Application. If you are below 13, a parent or legal guardian must review and accept these Terms on your behalf.</p>
+
+                    <p>Unauthorized copying, modification of the Application, any part of the Application, or the Service Provider's trademarks is strictly prohibited. Any attempts to extract the source code of the Application, translate the Application into other languages, or create derivative versions are not permitted. All trademarks, copyrights, database rights, and other intellectual property rights related to the Application remain the property of the Service Provider.</p>
+
+                    <h5>User-Generated Content and Acceptable Use</h5>
+                    <p>If this Application allows users to post, share, or upload content, you agree not to post content that:</p>
+
+                    <ul>
+                        <li>Is illegal or violates third-party intellectual property rights (copyright, trademark, patents)</li>
+                        <li>Is abusive, threatening, harassing, defamatory, or hate speech</li>
+                        <li>Contains discrimination or incitement to violence or illegal activity</li>
+                        <li>Is spam, phishing, or contains malware</li>
+                        <li>Violates the privacy or personal data rights of others</li>
+                        <li>Is misleading, false, or deceptive</li>
+                        <li>Contains explicit violence or sexual content (unless age-gated appropriately)</li>
+                    </ul>
+
+                    <p>The Service Provider reserves the right to:</p>
+
+                    <ul>
+                        <li>Remove or disable access to content that violates these guidelines</li>
+                        <li>Suspend or terminate accounts of users who repeatedly violate these guidelines</li>
+                        <li>Cooperate with law enforcement if illegal content is reported</li>
+                        <li>Moderate, filter, or hide content that violates these Terms, applicable law, or the guidelines set out above</li>
+                    </ul>
+
+                    <p>Content submitted through the Application may be visible to other users or to the public, depending on how the Application functions.</p>
+
+                    <p>If you believe content violates these Terms, infringes your rights, or is unlawful, you may report it to the Service Provider at saeid.yosri@gmail.com. The report should include enough information for the Service Provider to identify the content, evaluate the complaint, and contact you if follow-up is required.</p>
+
+                    <p>Where the Application provides such features, you may also report content, block other users, or mute notifications directly through the Application's interface. The Service Provider will review in-app reports with the same standards described in these Terms.</p>
+
+                    <p>The Service Provider may review reported content, request additional information where necessary, remove or restrict access to content, and take action against the responsible account where appropriate. Users affected by moderation decisions may contact the Service Provider at saeid.yosri@gmail.com to request further review. The Service Provider will respond to appeals within a reasonable period and provide the reasons for any upheld moderation decision, subject to applicable law.</p>
+
+                    <p>By submitting User-Generated Content you grant the Service Provider a non-exclusive, worldwide, royalty-free license to use, reproduce, distribute, prepare derivative works of, display and perform the content in connection with the Application and the Service Provider's business. This license does not grant the Service Provider the right to sell or sublicense your content to third parties independently of the Application. You represent and warrant that you own or control all rights in the content you post and that use of the content does not violate these Terms or applicable law.</p>
+
+                    <p>Your content may include personal data. Processing of personal data related to User-Generated Content is governed by the Privacy Policy. Do not post personal data of others without their consent.</p>
+
+                    <p>The Service Provider is dedicated to ensuring that the Application is as beneficial and efficient as possible. As such, they reserve the right to modify the Application or charge for their services at any time and for any reason. The Service Provider assures you that any charges for the Application or its services will be clearly communicated to you.</p>
+
+                    <p>The Application stores and processes personal data that you have provided to the Service Provider in order to provide the Service. It is your responsibility to maintain the security of your phone and access to the Application. The Service Provider strongly advises against jailbreaking or rooting your phone, which involves removing software restrictions and limitations imposed by the official operating system of your device. Such actions could expose your phone to malware, viruses, malicious programs, compromise your phone's security features, and may result in the Application not functioning correctly or at all.</p>
+
+                    <p>Please note that the Application utilizes third-party services that have their own Terms and Conditions. Below are the links to the Terms and Conditions of the third-party service providers used by the Application:</p>
+
+                    <ul>
+                        <li>Google Play Services</li>
+                        <li>Google Analytics for Firebase</li>
+                        <li>Firebase Crashlytics</li>
+                    </ul>
+
+                    <p>Some functions of the Application require an active internet connection. The Service Provider is not responsible if the Application does not function due to lack of internet access or mobile data exhaustion.</p>
+
+                    <p>You are responsible for any mobile charges, including roaming charges. If you are not the bill payer, you confirm that you have permission to use the Application.</p>
+
+                    <p>You are responsible for ensuring your device remains charged. The Service Provider is not responsible for inability to access the Application due to battery issues.</p>
+
+                    <p>Nothing in these Terms shall limit any rights you have under applicable consumer protection laws that cannot be lawfully excluded.</p>
+
+                    <h5>Limitation of Liability</h5>
+                    <p>To the fullest extent permitted by law, the Service Provider shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including but not limited to lost profits, data loss, or business interruption, even if advised of the possibility of such damages.</p>
+
+                    <p>The Service Provider retains full liability for:</p>
+
+                    <ul>
+                        <li>Death or personal injury caused by negligence</li>
+                        <li>Fraud or fraudulent misrepresentation</li>
+                        <li>Any other liability that cannot be excluded or limited under applicable law</li>
+                    </ul>
+
+                    <p>The total liability of the Service Provider shall not exceed the amount paid (if any) in the 12 months preceding the claim, or the minimum amount permitted by law.</p>
+
+                    <h5>Indemnification</h5>
+                    <p>You agree to indemnify and hold harmless the Service Provider, its affiliates, officers, directors, employees and agents from and against any claims, liabilities, damages, losses and expenses arising from your breach or misuse of the Application.</p>
+
+                    <p>This does not apply where prohibited by law or in cases of the Service Provider's negligence.</p>
+
+                    <p>The Service Provider may update or discontinue the Application at any time. Updates may be required for continued use. If you do not install updates, the Application may stop functioning correctly.</p>
+
+                    <h5>Governing Law and Jurisdiction</h5>
+                    <p>These Terms are governed by the applicable laws of the jurisdiction where the Service Provider is established.</p>
+
+                    <h5>Severability</h5>
+                    <p>If any provision is found invalid, the remaining provisions will remain in effect.</p>
+
+                    <h5>Entire Agreement</h5>
+                    <p>These Terms, together with the Privacy Policy, constitute the full agreement between you and the Service Provider.</p>
+
+                    <h5>Changes to These Terms and Conditions</h5>
+                    <p>The Service Provider may update these Terms from time to time. Continued use of the Application means acceptance of the updated Terms.</p>
+
+                    <p>Previous versions may be requested via contact.</p>
+
+                    <p>These terms and conditions are effective as of 2026-06-10</p>
+
+                    <h5>Contact Us</h5>
+                    <p>If you have any questions, contact the Service Provider at saeid.yosri@gmail.com.</p>
 
                 </div>
             </div>
         </div>
     </div>
+</div>
 
 </body>
 </html>
